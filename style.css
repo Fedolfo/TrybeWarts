@@ -5,6 +5,7 @@
 
 body {
   background-color: rgb(241, 225, 203);
+  font-size: 18px;
 }
 
 form {
@@ -42,6 +43,8 @@ main {
 
 .form-itens {
   margin: 5px;
+  padding: 8px;
+  border-radius: 10px;
 }
 
 #trybewarts-header-title {
@@ -65,11 +68,13 @@ main {
 #family {
   display: flex;
   flex-direction: column;
-  margin: 5px;
+  margin: 10px;
 }
 
 #submit-btn {
-  width: 100px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
   align-self: center;
 }
 
